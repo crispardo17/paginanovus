@@ -1,0 +1,5198 @@
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap);
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, footer, header, nav, section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption, figure, main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+    
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+a:active, a:hover {
+    outline-width: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b, strong {
+    font-weight: inherit
+}
+
+b, strong {
+    font-weight: bolder
+}
+
+code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -0.25em
+}
+
+sup {
+    top: -0.5em
+}
+
+audio, video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+details, menu {
+    display: block
+}
+summary {
+    display: list-item
+}
+canvas {
+    display: inline-block
+}
+template {
+    display: none
+}
+[hidden] {
+    display: none
+}
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+*, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit
+}
+@-ms-viewport {
+    width: device-width
+}
+html {
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent
+}
+body {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5
+}
+[tabindex="-1"]:focus {
+    outline: none !important
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+abbr[title], abbr[data-original-title] {
+    cursor: help
+}
+address {
+    margin-bottom: 1rem;
+    font-style: normal;
+    line-height: inherit
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem
+}
+ol ol, ul ul, ol ul, ul ol {
+    margin-bottom: 0
+}
+dt {
+    font-weight: bold
+}
+dd {
+    margin-bottom: .5rem;
+    margin-left: 0
+}
+blockquote {
+    margin: 0 0 1rem
+}
+a {
+    color: #fcfcfc;
+    text-decoration: none
+}
+a:hover {
+    color: inherit;
+    text-decoration: underline
+}
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none
+}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: inherit;
+    text-decoration: none
+}
+a:not([href]):not([tabindex]):focus {
+    outline: 0
+}
+pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    overflow: auto
+}
+figure {
+    margin: 0 0 1rem
+}
+img {
+    vertical-align: middle
+}
+[role=button] {
+    cursor: pointer
+}
+a, area, button, [role=button], input, label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation
+}
+table {
+    border-collapse: collapse;
+    background-color: transparent
+}
+caption {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #636c72;
+    text-align: left;
+    caption-side: bottom
+}
+th {
+    text-align: left
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem
+}
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color
+}
+input, button, select, textarea {
+    line-height: inherit
+}
+input[type=radio]:disabled, input[type=checkbox]:disabled {
+    cursor: not-allowed
+}
+input[type=date], input[type=time], input[type=datetime-local], input[type=month] {
+    -webkit-appearance: listbox
+}
+textarea {
+    resize: vertical
+}
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    line-height: inherit
+}
+input[type=search] {
+    -webkit-appearance: none
+}
+output {
+    display: inline-block
+}
+[hidden] {
+    display: none !important
+}
+* {
+    margin: 0;
+    padding: 0
+}
+html {
+    font-size: 62.5%
+}
+body {
+    font-family: "Red Hat Text", sans-serif
+}
+header {
+    width: 100%;
+    background: #0a3d96;
+    background: linear-gradient(90deg, rgba(10, 61, 150, 0.8379726891) 100%, rgba(70, 94, 255, 0) 100%);
+    position: fixed;
+    z-index: 11;
+    padding: 0
+}
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 0 2%;
+        display: flex;
+        background: #0a3d96;
+        background: linear-gradient(90deg, rgba(10, 61, 150, 0.8379726891) 100%, rgba(70, 94, 255, 0) 100%);
+        justify-content: space-evenly;
+        align-items: center
+    }
+}
+@media only screen and (min-width: 992px) {
+    header {
+        padding: 0 5%
+    }
+}
+header .header {
+    padding: 0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+@media only screen and (min-width: 768px) {
+    header .header {
+        display: inherit;
+        padding: 0
+    }
+}
+@media only screen and (min-width: 768px) {
+    header .header .header_logo {
+        width: 50%
+    }
+}
+header .header .header_logo img {
+    width: 35%
+}
+@media only screen and (min-width: 768px) {
+    header .header .header_logo img {
+        width: 100%
+    }
+}
+header .header .header-buton {
+    position: fixed;
+    right: 3%;
+    z-index: 11;
+    color: #fff
+}
+@media only screen and (min-width: 768px) {
+    header .header .header-buton {
+        display: none
+    }
+}
+footer {
+    background-color: #154d8b;
+    color: #fff
+}
+@media only screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        flex-wrap: wrap
+    }
+}
+@media only screen and (min-width: 768px) {
+    .footer_data {
+        width: 50%
+    }
+    .footer_data .contacto {
+        display: none
+    }
+}
+@media only screen and (min-width: 992px) {
+    .footer_data {
+        width: 40%;
+        padding: 5% 1%
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .footer_data {
+        width: 40%;
+        padding: 5% 1%
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .footer_data {
+        width: 40%;
+        padding: 5% 1%
+    }
+}
+.footer_text {
+    text-align: center;
+    padding: 5%
+}
+.footer_text-title {
+    margin: 0;
+    padding: 0
+}
+.footer_text-title p {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-size: 1.8rem
+}
+@media only screen and (min-width: 768px) {
+    .footer_text-title p {
+        font-size: 22px;
+        font-size: 2.2rem
+    }
+}
+@media only screen and (min-width: 992px) {
+    .footer_text-title p {
+        font-size: 24px;
+        font-size: 2.4rem
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .footer_text-title p {
+        font-size: 26px;
+        font-size: 2.6rem
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .footer_text-title p {
+        font-size: 28px;
+        font-size: 2.8rem
+    }
+}
+.footer_text-descripcion {
+    margin: 0;
+    padding: 0
+}
+.footer_text-descripcion p {
+    line-height: 18px;
+    font-size: 18px;
+    font-size: 1.8rem
+}
+@media only screen and (min-width: 768px) {
+    .footer_text-descripcion p {
+        line-height: 20px;
+        font-size: 20px;
+        font-size: 2rem
+    }
+}
+@media only screen and (min-width: 992px) {
+    .footer_text-descripcion p {
+        line-height: 22px;
+        font-size: 22px;
+        font-size: 2.2rem
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .footer_text-descripcion p {
+        line-height: 24px;
+        font-size: 24px;
+        font-size: 2.4rem
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .footer_text-descripcion p {
+        line-height: 26px;
+        font-size: 26px;
+        font-size: 2.6rem
+    }
+}
+.footer_img {
+    display: none
+}
+@media only screen and (min-width: 768px) {
+    .footer_img {
+        display: grid;
+        width: 50%;
+        background-image: url("https://i.ibb.co/pKg4RgR/footer-img.jpg");
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat
+    }
+}
+@media only screen and (min-width: 992px) {
+    .footer_img {
+        width: 60%
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .footer_img {
+        width: 60%
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .footer_img {
+        width: 60%
+    }
+}
+.contacto {
+    padding: 15px 0;
+    text-align: center
+}
+.contacto p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-size: 1.8rem
+}
+#form-contacto {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+#form-contacto input[type=text], form input[type=email] {
+    width: 65%;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-size: 1.8rem
+}
+#form-contacto label {
+    width: 90%;
+    line-height: 18px;
+    margin-bottom: 5%;
+    text-align: justify;
+    font-size: 13px;
+    font-size: 1.3rem
+}
+#form-contacto label a {
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 16px;
+    font-size: 1.6rem;
+    color: #fff
+}
+#form-contacto .checkData>input[type=checkbox] {
+    margin-right: 6px;
+    
+}
+#form-contacto button {
+    width: 40%;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-size: 2rem;
+    background-color: #222221;
+    color: #fff
+}
+#form-contacto button:hover {
+    background-color: #6f6f6e
+}
+
+.shape {
+    background-image: url("https://i.ibb.co/F40hdbS/fondo-Flooter.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2% 5%;
+    width: 100%
+}
+.shape-log img {
+    margin: 0;
+    padding: 0;
+    width: 30%
+}
+@media only screen and (min-width: 768px) {
+    .shape-log {
+        width: 30%
+    }
+    .shape-log img {
+        width: 80%
+    }
+}
+@media only screen and (min-width: 768px) {
+    .shape {
+        display: flex;
+        align-items: center
+    }
+}
+.shape-contacto {
+    display: none
+}
+@media only screen and (min-width: 768px) {
+    .shape-contacto {
+        display: block;
+        text-align: start
+    }
+}
+@media only screen and (min-width: 768px)and (min-width: 992px) {
+    .shape-contacto {
+        padding-left: 0%
+    }
+}
+@media only screen and (min-width: 768px) {
+    .shape-contacto p {
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        font-size: 1.5rem
+    }
+}
+@media only screen and (min-width: 768px)and (min-width: 992px) {
+    .shape-contacto p {
+        font-size: 18px;
+        font-size: 1.8rem
+    }
+}
+@media only screen and (min-width: 768px)and (min-width: 1280px) {
+    .shape-contacto p {
+        font-size: 20px;
+        font-size: 2rem
+    }
+}
+@media only screen and (min-width: 768px)and (min-width: 1480px) {
+    .shape-contacto p {
+        font-size: 20px;
+        font-size: 2rem
+    }
+}
+.hero-shape {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+.hero-shape img {
+    width: 30%
+}
+
+/*  */
+/*  */
+/* NAVBAR/////////////////////////////////////////////////////// */
+/*  */
+/*  */
+.navbar {
+    min-width: 50%;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -100%;
+    text-align: center;
+    background-color: #154d8b;
+    transition: .9s
+}
+@media only screen and (min-width: 768px) {
+    .navbar {
+        width: 100%;
+        height: initial;
+        position: initial;
+        padding: 0;
+        margin: 0;
+        background-color: inherit
+    }
+}
+.navbar nav {
+    position: absolute;
+    width: 100%;
+    top: 15%
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .navbar nav {
+        top: 12%
+    }
+}
+@media only screen and (min-width: 768px) {
+    .navbar nav {
+        position: inherit;
+        display: flex;
+        justify-items: end;
+        align-content: flex-end;
+        width: auto
+    }
+}
+@media only screen and (min-width: 992px) {
+    .navbar nav {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center
+    }
+}
+@media only screen and (min-width: 768px) {
+    .navbar nav ul {
+        display: flex
+    }
+}
+.navbar nav ul li {
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+    list-style: none
+}
+@media only screen and (min-width: 768px) {
+    .navbar nav ul li {
+        border: none
+    }
+}
+.navbar nav ul li a {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .navbar nav ul li a {
+        line-height: 18px;
+        font-size: 15px;
+        font-size: 1.5rem
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .navbar nav ul li a {
+        line-height: 18px;
+        font-size: 18px;
+        font-size: 1.8rem
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .navbar nav ul li a {
+        line-height: 20px;
+        font-size: 20px;
+        font-size: 2rem
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .navbar nav ul li a {
+        line-height: 23px;
+        font-size: 23px;
+        font-size: 2.3rem
+    }
+}
+@media only screen and (min-width: 768px) {
+    .navbar nav ul li a {
+        line-height: 15px;
+        font-size: 13px;
+        font-size: 1.3rem;
+        position: relative;
+        padding-bottom: 10px
+    }
+    .navbar nav ul li a::before {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 5px;
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        transition: all 1s
+    }
+    .navbar nav ul li a:hover::before {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 992px) {
+    .navbar nav ul li a {
+        font-weight: 700;
+        line-height: 30px;
+        font-size: 18px;
+        font-size: 1.8rem
+    }
+}
+.navbar nav ul li a:hover {
+    text-decoration: none
+}
+.is-active {
+    right: 0;
+    transition: .6s
+}
+.indice {
+    display: none
+}
+.legal {
+    min-height: 45vh;
+    background-image: url("https://i.ibb.co/Bw4t8CN/legal-backgraund-gruponovus.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal {
+        min-height: 50vh
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal {
+        min-height: 55vh
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal {
+        min-height: 65vh
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal {
+        min-height: 85vh
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal {
+        min-height: 85vh
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal {
+        min-height: 90vh
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal {
+        min-height: 90vh
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legal {
+        min-height: 90vh
+    }
+}
+.legal-img {
+    position: absolute;
+    top: 50%;
+    padding: 15px;
+    width: 80%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 50%, rgba(255, 255, 255, 0))
+}
+.legal-img img {
+    width:75%
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-img img {
+        width: 75%
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-img img {
+        width: 55%
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-img img {
+        width: 55%
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-img img {
+        width: 55%
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-img img {
+        width: 45%
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-img img {
+        width: 35%
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-img img {
+        width: 35%
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legal-img img {
+        width: 35%
+    }
+}
+/* seccion donde se encuentra el titulo de legal, la descripcion de la información de legal y la imagen */
+.legals {
+    background-color: #222221;
+    padding: 5% 0    
+}
+/* div titulo de legal */
+.legals__titulo {
+    width: 90%   
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__titulo {
+        width: 90%;
+        padding-left: 10%;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__titulo {
+        width: 90%;
+        padding-left: 10%;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__titulo {
+        width: 95%;
+        padding-left: 5%;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__titulo {
+        width: 95%;
+        padding-left: 5%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__titulo {
+        width: 98%;
+        padding-left: 2%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__titulo {
+        width: 98%;
+        padding-left: 2%;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__titulo {
+        width: 98%;
+        padding-left: 2%;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__titulo {
+        width: 98%;
+        padding-left: 2%;
+    }
+}
+/* titulo de legal y codigo responsive */
+.legals__titulo p {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    font-size: 15px;    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__titulo p  {
+        text-align:center;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 1.5rem
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__titulo p {
+        text-align:center;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 1.8rem
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__titulo p  {
+        text-align:center;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 2.1rem
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__titulo p  {
+        text-align:end;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 2.1rem
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__titulo p  {
+        text-align:end;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__titulo p {
+        text-align:end;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 3.5rem
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__titulo p {
+        text-align:end;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 4.0rem
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__titulo p {
+        text-align:end;
+        font-size: 25px;
+        border-bottom: 8px solid #706F6E;
+        border-bottom: 100%;
+        font-size: 4.0rem
+    }
+}
+/* div donde viene incorporado la imagen y la descripcion de legal con el responsive */
+.legals__info {
+    width: 100%
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info {
+        margin-top: 2%
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info {
+        margin-top: 2%
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info {
+        margin-top: 2%
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info {
+        display: flex;
+        margin-top: 2%
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info {
+        display: flex;
+        margin-top: 2%
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info {
+        display: flex;
+        margin-top: 2%
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info {
+        display: flex;
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info {
+        display: flex;
+        margin-top: 19px;
+    }
+}
+/* css del div donde esta ubicada imagen de legal con el responsive */
+.legals__info-img {
+    margin-top: 3%;
+    padding: 0 2%
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-img {
+        width: 100%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-img {
+        width: 100%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-img {
+        width: 100%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-img {
+        width: 50%;
+        padding: 0
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-img {
+        width: 50%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-img {
+        width: 50%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-img {
+        width: 50%;
+        padding: 5px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-img {
+        width: 50%;
+        padding: 10px;
+    }
+}
+/* css de la imagen de legal */
+.legals__info-img img {
+    width: 100%
+}
+/* css del div donde esta ubicada la descripcion de legal */
+.legals__info-descripcion {
+    color: #fff;
+    padding: 2%;
+    margin-bottom: 2%
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-descripcion {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-descripcion {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-descripcion {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-descripcion {
+        width: 50%
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-descripcion {
+        width: 50%
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-descripcion {
+        width: 50%
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-descripcion {
+        width: 50%
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-descripcion {
+        width: 50%
+    }
+}
+/* css del texto ubicado en la descripcion de legal con el codigo responsive */
+.legals__info-descripcion p {
+    text-align: start;
+    margin: 0;
+    line-height: 17px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    border-bottom: 25px solid #32659A
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-descripcion p {
+        text-align: center;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.5rem;
+        border-bottom: 5px solid #32659A
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-descripcion p {
+        margin: 0px 10px;
+        text-align: justify;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.8rem;
+        border-bottom: 5px solid #32659A; 
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-descripcion p {
+        padding: 0;
+        padding-bottom: 20px;
+        margin: 0px 10px;
+        text-align: justify;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.8rem;
+        border-bottom: 5px solid #32659A; 
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-descripcion p {
+        padding-top: 10px;
+        padding-bottom: 35px;
+        margin: 0px 10px;
+        text-align: justify;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.8rem;
+        border-bottom: 5px solid #32659A;  
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-descripcion p {
+        padding-top: 10px;
+        padding-bottom: 35px;
+        margin: 0px 10px;
+        text-align: justify;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.8rem;
+        border-bottom: 5px solid #32659A; 
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-descripcion p {
+        padding-top: 10px;
+        padding-bottom: 35px;
+        margin: 0px 10px;
+        text-align: justify;
+        line-height: 27px;
+        font-size: 18px;
+        font-size: 2.5rem;
+        border-bottom: 5px solid #32659A;    
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-descripcion p {
+        padding-top: 10px;
+        padding-bottom: 35px;
+        margin: 0px 10px;
+        text-align: justify;
+        line-height: 36px;
+        font-size: 18px;
+        font-size: 3.0rem;
+        border-bottom: 20px solid #32659A;     
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-descripcion p {
+        padding-top: 10px;
+        padding-bottom: 35px;
+        margin: 0px 10px;
+        text-align: justify;
+        line-height: 36px;
+        font-size: 18px;
+        font-size: 3.8rem;
+        border-bottom: 20px solid #32659A;    
+    }
+}
+/* Botones grandes de solicitud y consulta ubicados en la pagina legal */
+.legal-grid-btn{
+    display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        display: flex;
+        flex-direction: column
+}
+@media only screen and (min-width: 1440px) {
+    .legal-grid-btn {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr 
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-grid-btn {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr 
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-grid-btn {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr 
+    }
+}
+@media only screen and (min-width: 410px) {
+    .legal-grid-btn {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        display: flex;  
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-grid-btn {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+         
+    }
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+/* div donde estan ubicado el boton de solicitud de titulos */
+.legals__info-btn-solicitud {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 5% 5% 3% 0%; 
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-btn-solicitud  {
+        width: 100%;
+    }
+}
+/* css del boton para solicitud de estudio de titulos */
+.legals__info-btn-solicitud button {
+    background-color: #32659A;
+    font-family: "Red Hat Text", sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 17px;
+    font-size: 15px;
+    font-size: 2.0rem;
+    border-radius: 40px;
+    border:0px;
+
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-btn-solicitud button  {
+        padding: 10px;
+        width: 300px;
+        margin-left: 10px;
+        font-size: 1.3rem;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-btn-solicitud button  {
+        padding: 10px;
+        width: 300px;
+        margin-left: 35px;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-btn-solicitud button  {
+        padding: 10px;
+        width: 350px;
+        margin-left: 35px;
+        font-size: 1.6rem;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-btn-solicitud button {
+        padding: 10px;
+        width: 300px;
+        margin-left: 35px;
+        font-size: 1.8rem;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-btn-solicitud button  {
+        padding: 15px;
+        width: 300px;
+        margin-left: 40px;
+        font-size: 1.8rem;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-btn-solicitud button  {
+        padding: 10px;
+        width: 430px;
+        line-height: 24px;
+        margin-left: 40px;
+        font-size: 2.3rem;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-btn-solicitud button  {
+        padding: 10px;
+        width: 600px;
+        height: 250px;
+        line-height: 34px;
+        margin-left: 35px;
+        font-size: 3.3rem;
+        color: #fff;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-btn-solicitud button {
+        padding: 10px;
+        width: 600px;
+        height: 250px;
+        line-height: 34px;
+        margin-left: 55px;
+        font-size: 3.3rem;
+        color: #fff;
+    }
+}
+/* tamaño del icono que esta ubicado en el boton de solicitud */
+.icon-form{
+    margin-top: 10px;
+    width: 80px;
+    height: 110px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-form  {
+        margin: 10px;
+        width: 30px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-form {
+        margin: 10px;
+        width: 30px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-form  {
+        margin: 10px;
+        width: 30px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-form {
+        margin: 10px;
+        width: 30px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-form {
+        margin: 10px;
+        width: 50px;
+        height: 70px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-form {
+        margin: 10px;
+        width: 60px;
+        height: 80px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-form  {
+        margin: 10px;
+        width: 70px;
+        height: 90px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .icon-form {
+        margin: 10px;
+        width: 70px;
+        height: 90px;
+    }
+}
+
+/* tamaño del icono que esta ubicado en el boton de consulta*/
+.icon-ojo{
+    margin-top: 10px;
+    width: 100px;
+    height: 110px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-ojo  {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-ojo {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-ojo  {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-ojo {
+        margin: 10px;
+        width: 50px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-ojo {
+        margin: 10px;
+        width: 70px;
+        height: 70px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-ojo {
+        margin: 10px;
+        width: 80px;
+        height: 80px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-ojo  {
+        margin: 10px;
+        width: 90px;
+        height: 90px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .icon-ojo {
+        margin: 10px;
+        width: 90px;
+        height: 90px;
+    }
+}
+/* div donde esta ubicado el titulo para solicitar titulos y la descripcion */
+.legals__info-titleEstudio {
+    color: #fff;
+    width: 100%
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-titleEstudio{
+        width: 100%
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-titleEstudio {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-titleEstudio {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-titleEstudio{
+        width: 100%
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-titleEstudio {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-titleEstudio {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-titleEstudio  {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-titleEstudio {
+        width: 100%
+    }
+}
+.legals__info-titleEstudio p {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-size: 1.5rem
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-titleEstudio p {
+        margin: 20px;
+        font-size: 25px;
+        font-size: 1.7rem;
+        text-align: center;   
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-titleEstudio p {
+        margin: 20px;
+        font-size: 25px;
+        font-size: 2.0rem;
+        text-align: center;    
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-titleEstudio p {
+        margin: 20px;
+        font-size: 25px;
+        font-size: 2.0rem;
+        text-align: center;   
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-titleEstudio p {
+        margin: 20px;
+        font-size: 25px;
+        font-size: 2.6rem;
+        text-align: left;   
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-titleEstudio p {
+        margin: 20px;
+        font-size: 25px;
+        font-size: 2.8rem;
+        text-align: left;   
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-titleEstudio p {
+        margin: 20px;
+        font-size: 25px;
+        font-size: 3.5rem;
+        text-align: left; 
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-titleEstudio p {
+        margin: 40px;
+        font-size: 25px;
+        font-size: 4.5rem;
+        text-align: left; 
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-titleEstudio p {
+        margin: 40px;
+        font-size: 25px;
+        font-size: 4.5rem;
+        text-align: left; 
+    }
+}
+/* css descripcion de los estudios de titulos */
+.legals__info-titleEstudio-descripcion p {
+    text-align: justify;
+    margin: 0;
+    line-height: 17px;
+    font-size: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 10px;
+        padding-bottom: 20px;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 1.9rem;
+    }    
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 20px;
+        padding-bottom: 20px;
+        line-height: 20px;
+        font-size: 18px;
+        font-size: 2.8rem;
+    }    
+}
+@media only screen and (min-width: 768px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 20px;
+        padding-bottom: 20px;
+        line-height: 25px;
+        font-size: 18px;
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 20px;
+        padding-bottom: 20px;
+        line-height: 25px;
+        font-size: 18px;
+        font-size: 2.5rem; 
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 30px;
+        margin-left: 20px;
+        padding-bottom: 20px;
+        line-height: 35px;
+        font-size: 18px;
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .legals__info-titleEstudio-descripcion p {
+        padding: 20px;
+        padding-bottom: 20px;
+        line-height: 25px;
+        font-size: 18px;
+        font-size: 2.5rem; 
+    }
+}
+/* //////////////////////////////////////////////////// */
+/* PAGINA SOLICITUD DE TITULOS */
+/* /////////////////////////////////////////////////77 */
+.legal-solicitud {
+    min-height: 95vh;
+    padding: 150px 0px 0px 0px;
+    background-image: url("https://i.ibb.co/Bw4t8CN/legal-backgraund-gruponovus.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-solicitud {
+        min-height: 70vh;
+        padding: 90px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-solicitud {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-solicitud {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-solicitud {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-solicitud {
+        min-height: 100vh;
+        padding: 120px 15px 10px 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-solicitud {
+        min-height: 120vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-solicitud {
+        min-height: 150vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-solicitud {
+        min-height: 180vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+.legal-solicitud-fondo {
+    margin: 5px 80px 0px 80px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    min-height: 190vh; 
+    background: linear-gradient(90deg, rgba(10, 61, 150, 0.8379726891) 100%, rgba(70, 94, 255, 0) 100%);  
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-solicitud-fondo {
+        min-height: 105vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-solicitud-fondo {
+        min-height: 95vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-solicitud-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-solicitud-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-solicitud-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-solicitud-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-solicitud-fondo {
+        min-height: 110vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-solicitud-fondo {
+        min-height: 180vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+/* Titulo div de pagina de solicitud de estados de titulos */
+.legals__titulo-solicitud {
+    margin-top: 10px;
+    width: 100%    
+}
+
+.legals__titulo-solicitud p {
+    text-align:center;
+    color: #fff;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+@media only screen and (min-width: 768px) {
+    .legals__titulo-solicitud p {
+        font-size: 25px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__titulo-solicitud p {
+        line-height: 38px;
+        font-size: 38px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legals__titulo-solicitud p {
+        line-height: 42px;
+        font-size: 42px;
+        font-size: 2.7rem
+    }
+}
+.legals__titulo-solicitud b {
+    font-weight: bold;
+}
+.icon-solicitud{
+    width: 50px;
+    height: 65px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-solicitud {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-solicitud {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-solicitud {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-solicitud {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-solicitud {
+        width: 40px;
+        height: 55px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-solicitud {
+        width: 45px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-solicitud {
+         width: 50px;
+         height: 65px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .icon-solicitud {
+        width: 50px;
+        height: 65px;
+    }
+}
+.icon-footer-solicitud{
+    width: 95px;
+    height: 45px;
+    margin: 10px 0px 0px 10px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-footer-solicitud {
+        margin: 10px 0px 0px 50px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-footer-solicitud {
+        margin: 10px 0px 0px 90px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-footer-solicitud {
+        margin: 10px 0px 0px 100px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-footer-solicitud {
+        margin: 10px 0px 0px 100px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-footer-solicitud {
+        margin: 10px 0px 0px 260px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-footer-solicitud {
+        margin: 10px 0px 0px 10px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-footer-solicitud {
+        margin: 10px 0px 0px 10px;
+    }
+}
+#form-solicitud input[type=text],#form-solicitud input[type=mail],#form-solicitud input[type=number] {
+    width: 330px;
+    outline: none;
+    border-radius: 7px;
+    border-color: #32659A;
+    border-width: 1px;
+    text-align: center;
+    font-size: 10px;
+    font-size: 1.9rem
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-solicitud input[type=text],#form-solicitud input[type=mail],#form-solicitud input[type=number]{
+        width: 220px; 
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-solicitud input[type=text],#form-solicitud input[type=mail],#form-solicitud input[type=number] {
+        width: 270px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-solicitud input[type=text],#form-solicitud input[type=mail],#form-solicitud input[type=number] {
+        width: 310px;
+    }
+}@media only screen and (min-width: 768px) {
+    #form-solicitud input[type=text],#form-solicitud input[type=mail],#form-solicitud input[type=number] {
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-solicitud input[type=text],#form-solicitud input[type=mail],#form-solicitud input[type=number] {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-solicitud input[type=text],#form-solicitud input[type=mail],#form-solicitud input[type=number] {
+        width: 350px;
+    }
+}
+#form-solicitud label {
+    width: 170px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    font-size: 1px;
+    font-size: 1.4rem
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-solicitud label {
+        
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-solicitud label {
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-solicitud label {
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-solicitud label {
+        margin-top: 20px;
+    }
+}
+#form-solicitud label a {
+    font-weight: 500;
+    line-height: 14px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+}   
+#form-solicitud select{
+    width: 330px;
+    height: 30px;
+    outline: none;
+    border-radius: 7px;
+    border-color: #32659A;
+    border-width: 1px;
+    text-align: center;
+    font-size: 1.5rem
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-solicitud select {
+        width: 220px;
+        margin-bottom: 10px;
+        font-size: 1.2rem
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-solicitud select {
+        width: 270px;
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-solicitud select {
+        width: 310px;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-solicitud select {
+        width: 310px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-solicitud select {
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-solicitud select {
+        width: 200px;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-solicitud select {
+        width: 350px;
+        font-size: 1.3rem;
+    }
+}
+#form-solicitud .checkData>input[type=checkbox] {
+    width:20px;
+    height:20px;
+    margin-right: 10px;
+    float: left;   
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-solicitud .checkData>input[type=checkbox] {  
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-solicitud .checkData>input[type=checkbox] {
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-solicitud .checkData>input[type=checkbox] {   
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-solicitud .checkData>input[type=checkbox] {   
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-solicitud .checkData>input[type=checkbox] {  
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-solicitud .checkData>input[type=checkbox] {  
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-solicitud .checkData>input[type=checkbox] {
+    }
+        
+}
+#form-solicitud .siguiente {
+    font-weight: 700;
+    width: 130px;
+    padding: 1px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 1.8rem;
+    background-color:#32659A ;
+    color: #fff
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-solicitud .siguiente {
+        margin: 15px 0px 20px 40px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-solicitud .siguiente {
+        margin: 20px 0px 20px 70px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-solicitud .siguiente {
+        margin: 20px 0px 20px 90px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-solicitud .siguiente {
+        margin: 20px 0px 20px 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-solicitud .siguiente {
+        margin: 20px 0px 20px 240px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-solicitud .siguiente {
+        margin: 20px 0px 20px 0px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-solicitud .siguiente {
+        margin: 20px 0px 20px 16px;
+    }
+}
+#form-solicitud .agregar {
+    margin: 1px 0px 20px 52% ;
+    font-weight: 700;
+    width: 130px;
+    padding: 0px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 1.8rem;
+    background-color:#32659A ;
+    color: #fff
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-solicitud .agregar {
+        margin: 15px 0px 20px 40px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-solicitud .agregar {
+        margin: 20px 0px 20px 70px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-solicitud .agregar {
+        margin: 20px 0px 20px 90px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-solicitud .agregar {
+        margin: 20px 0px 20px 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-solicitud .agregar {
+        margin: 20px 0px 20px 240px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-solicitud .agregar {
+        margin: 20px 0px 20px 210px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-solicitud .agregar {
+        margin: 20px 0px 20px 295px;
+    }
+}
+#form-solicitud .siguiente:hover {
+    background-color: rgb(71, 71, 73)
+}
+#form-solicitud .agregar:hover {
+    background-color: rgb(71, 71, 73)
+}
+/* tabla del formulario */
+#tblSolicitud{
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #tblSolicitud{
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #tblSolicitud{
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #tblSolicitud{
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #tblSolicitud{ 
+       overflow-x: auto;
+    }
+    
+}
+@media only screen and (min-width: 768px) {
+    #tblSolicitud{
+        overflow-x: auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #tblSolicitud{
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #tblSolicitud{
+    }
+}
+table {
+    font-family:  "Red Hat Text", sans-serif;
+    width: 100%;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    table{  
+    }      
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    table{
+    
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    table{
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    table{       
+    }
+}
+@media only screen and (min-width: 768px) {
+    table{       
+    }
+}
+@media only screen and (min-width: 992px) {
+    table{
+    }
+}
+@media only screen and (min-width: 1280px) {
+    table{
+    }
+}
+td{  
+    text-align: center;
+    padding: 10px;
+    color: black;
+    border: 2px solid #ddd;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    td{
+        font-size: 1.2rem; 
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    td{
+        font-size: 1.2rem; 
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    td{
+        font-size: 1.2rem; 
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    td{
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    td{
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    td{
+        
+    }
+}
+@media only screen and (min-width: 1280px) {
+    td{
+        
+    }
+}
+th{
+    background-color: #32659A;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: white;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    th{
+      font-size: 1.1rem; 
+      padding: 1px;
+    }  
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    th{
+        font-size: 1.1rem; 
+        padding: 1px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    th{
+        font-size: 1.1rem; 
+        padding: 1px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    th{
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    th{
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    th{
+        
+    }
+}
+@media only screen and (min-width: 1280px) {
+    th{
+        
+    }
+}
+  tr:nth-child(even) {
+    background-color: #ededed;
+}
+/* modal para aceptar terminos y condiciones */
+.modal{
+    background-color: #244aaa54;
+    width: 100%;
+    height:100%;
+    position: fixed;
+    display: flex;
+    display: none;
+    margin-top: 40px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .modal {
+       
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .modal {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .modal {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .modal {
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    .modal {
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    .modal {
+       
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .modal {
+        
+    }
+}
+.contenedor{
+    width: 900px;
+    height:550px;
+    margin: auto;   
+    background-color: #525252;
+    transition:all 500ms ease;
+    position: relative;    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .contenedor {
+        width: 300px;
+        height:525px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .contenedor {
+        width: 350px;
+        height:525px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .contenedor {
+        width: 400px;
+        height:550px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .contenedor {
+        width: 400px;
+        height:550px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .contenedor {
+        width: 700px;
+        height:550px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .contenedor {
+        width: 800px;
+        height:550px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .contenedor {
+        width: 900px;
+        height:550px;
+    }
+}  
+.head-modal{
+    height: 40%;
+    width: 100%;
+    background-image: url("https://i.ibb.co/L1gtWcB/legal.jpg");
+    background-position: center;
+    background-size: cover;  
+}
+.head-modal h1{
+    width: 50%;
+    padding:80px 0px 0px 40px;
+    font-weight: 600;
+    font-size: 2.8rem;     
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .head-modal h1 {
+        padding:50px 0px 0px 10px;
+        font-size: 1.7rem; 
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .head-modal h1 {
+        padding:50px 0px 0px 10px;
+        font-size: 1.7rem; 
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .head-modal h1 {
+        padding:50px 0px 0px 30px;
+        font-size: 1.7rem; 
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .head-modal h1 {
+        padding:50px 0px 0px 30px;
+        font-size: 1.7rem; 
+    }
+}
+@media only screen and (min-width: 768px) {
+    .head-modal h1 {
+        padding:50px 0px 0px 30px;
+        font-size: 1.7rem; 
+    }
+}
+@media only screen and (min-width: 992px) {
+    .head-modal h1 {
+        
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .head-modal h1 {
+        
+    }
+}
+.head-modal label{
+    margin-top: 15px;
+    padding-left: 150px;
+    float: right;
+    cursor: pointer;
+    color:#32659A;
+}
+.contenido {
+    height: 50%;
+    background-color:rgb(255, 255, 255);
+    margin: 5px 25px;
+}
+.contenido p{
+    height: 265px;
+    padding: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 1.1rem;
+    overflow-y: auto;
+    line-height: 15px;
+    text-align: justify;
+}
+.footer-modal button{
+    margin:0px 25px;
+    height: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-size: 1.5rem;
+    background-color:#32659A ;
+    color: #fff;
+    float: right;
+}
+.footer-modal button:hover {
+    background-color: #6f6f6e
+}
+.icon-modal{
+    margin-left: 40px;
+    width: 130px;
+    height: 55px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-modal {
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-modal {
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-modal {
+        margin-left: 30px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-modal {
+        margin-left: 30px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-modal {
+        margin-left: 30px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-modal {
+        
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-modal {
+         
+    }
+}
+.solicitud-f #text-modal{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    line-height: 1em;
+    padding-top: 5px; 
+}
+.legal-grid-form{
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 3%;
+    height: auto;   
+}
+@media only screen and (min-width: 992px) {
+    .legal-grid-form {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto 1fr 1fr 
+    }
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(1) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2;
+        padding: 2px;
+        margin-bottom: 70px;
+    }    
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(2) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 3/5;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2; 
+    }        
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(3) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 4;
+        grid-column: 1/5;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 2/3;
+    }            
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(4) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;        
+        border-top: solid #32659A;
+        padding: 30px 5px 0px 20px; 
+    } 
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .solicitud-f:nth-child(4) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;        
+        border-top: solid #32659A;
+        padding: 20px 0px 0px 50px; 
+    } 
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .solicitud-f:nth-child(4) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;        
+        border-top: solid #32659A;
+        padding: 20px 0px 0px 70px; 
+    } 
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .solicitud-f:nth-child(4) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;        
+        border-top: solid #32659A;
+        padding: 20px 0px 0px 90px; 
+    }
+}
+@media only screen and (min-width: 768px)and (max-width: 900px)  {
+    .solicitud-f:nth-child(4) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;        
+        border-top: solid #32659A;
+        padding: 20px 0px 0px 230px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(5) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4; 
+        border-top: solid #32659A;
+        padding: 30px 5px 0px 20px; 
+    }     
+}
+@media only screen and (min-width: 200px)and (max-width: 368px)  {
+    .solicitud-f:nth-child(5) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4; 
+        padding: 30px 5px 0px 50px; 
+    }     
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .solicitud-f:nth-child(5) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;  
+        padding: 20px 0px 0px 70px; 
+    } 
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .solicitud-f:nth-child(5) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;      
+        padding: 20px 0px 0px 90px; 
+    }
+}
+@media only screen and (min-width: 768px)and (max-width: 900px)  {
+    .solicitud-f:nth-child(5) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;      
+        padding: 20px 0px 0px 230px; 
+    }
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(6) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 3/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4; 
+        border-top: solid #32659A;
+        padding: 30px 5px 0px 20px;
+    }   
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .solicitud-f:nth-child(6) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 3/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4; 
+        padding: 30px 5px 0px 50px;
+    }   
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .solicitud-f:nth-child(6) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 3/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;  
+        padding: 20px 0px 0px 70px; 
+    } 
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .solicitud-f:nth-child(6) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 3/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;      
+        padding: 20px 0px 0px 90px; 
+    }
+}
+@media only screen and (min-width: 768px)and (max-width: 900px)  {
+    .solicitud-f:nth-child(6) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 3/4;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;      
+        padding: 20px 0px 0px 230px; 
+    }
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(7) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 4/5;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4; 
+        border-top: solid #32659A;
+        padding: 30px 5px 0px 0px;
+    }      
+}
+@media only screen and (min-width: 992px) {
+    .solicitud-f:nth-child(8) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 4/5; 
+        padding-top: 10px;
+    }       
+}
+/* ////////////////////////////////////////////////////////////////7 */
+/* FIN PAGINA SOLICITUD */
+/* ////////////////////////////////////////////////////////////////////*/
+/* INICIO PAGINA CONSULTA */
+.legal-consulta {
+    min-height: 95vh;
+    padding: 150px 0px 0px 0px;
+    background-image: url("https://i.ibb.co/Bw4t8CN/legal-backgraund-gruponovus.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-consulta {
+        min-height: 70vh;
+        padding: 90px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-consulta {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-consulta {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-consulta {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-consulta {
+        min-height: 100vh;
+        padding: 120px 15px 10px 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-consulta {
+        min-height: 100vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-consulta {
+        min-height: 150vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-consulta {
+        min-height: 180vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+.legal-consulta-fondo {
+    margin: 5px 80px 0px 80px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    min-height: 190vh; 
+    background: linear-gradient(90deg, rgba(10, 61, 150, 0.8379726891) 100%, rgba(70, 94, 255, 0) 100%);  
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-consulta-fondo {
+        min-height: 80vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-consulta-fondo {
+        min-height: 90vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-consulta-fondo {
+        min-height: 90vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-consulta-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-consulta-fondo {
+        min-height: 90vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-consulta-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-consulta-fondo {
+        min-height: 110vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-consulta-fondo {
+        min-height: 180vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+.legals__titulo-consulta {
+    margin: 20px 0px;   
+}
+.legals__titulo-consulta p {
+    text-align:center;
+    color: #fff;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__titulo-consulta p {
+        font-size: 25px;
+        font-size: 1.5rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__titulo-consulta p {
+        font-size: 25px;
+        font-size: 1.9rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__titulo-consulta p {
+        font-size: 25px;
+        font-size: 1.9rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__titulo-consulta p {
+        font-size: 25px;
+        font-size: 1.9rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__titulo-consulta p {
+        font-size: 25px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__titulo-consulta p {
+        line-height: 38px;
+        font-size: 38px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legals__titulo-consulta p {
+        line-height: 42px;
+        font-size: 42px;
+        font-size: 2.7rem
+    }
+}
+.icon-consulta{
+    width: 50px;
+    height: 65px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-consulta {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-consulta {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-consulta {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-consulta {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-consulta{
+        width: 40px;
+        height: 55px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-consulta {
+        width: 45px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-consulta {
+         width: 50px;
+         height: 65px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .icon-consulta {
+        width: 50px;
+        height: 65px;
+    }
+}
+/* formulario contacto */
+
+#form-consulta input[type=text],#form-solicitud input[type=number] {
+    outline: none;
+    border-radius: 7px;
+    border-color: #32659A;
+    border-width: 1px;
+    text-align: center;
+    font-size: 10px;
+    font-size: 1.9rem;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-consulta input {
+        width: 240px; 
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-consulta input {
+        width: 285px; 
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-consulta input {
+        width: 330px; 
+    }
+}    
+@media only screen and (min-width: 768px) {
+    #form-consulta input {
+        width: 500px;
+        margin-left: 60px; 
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-consulta input {
+        width: 500px;
+        margin-left: 170px; 
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-consulta input {
+        width: 650px;
+        margin-left: 270px;
+        margin-top:20px;
+    }
+}
+#form-consulta label {
+    line-height: 18px;
+    text-align: center;
+    font-size: 13px;
+    font-size: 2.1rem;
+    align-items: center;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-consulta label {
+        width: 250px;
+        font-size: 1.5rem;
+        margin: 20px 0px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-consulta label {
+        width: 280px;
+        font-size: 1.7rem;
+        margin: 20px 0px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-consulta label {
+        width: 320px;
+        font-size: 1.7rem;
+        margin: 20px 0px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-consulta label {
+        width: 350px;
+        font-size: 1.7rem;
+        margin: 50px 0px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-consulta label {
+        width: 500px;
+        font-size: 1.7rem;
+        margin-left: 80px;
+        margin-top: 40px;
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-consulta label {
+        width: 500px;
+        font-size: 1.7rem;
+        margin-left: 180px;
+        margin-top: 40px; 
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-consulta label {
+        width: 500px;
+        font-size: 1.7rem;
+        margin-left: 340px;
+        margin-top: 40px; 
+    }
+}
+#form-consulta button {
+    font-weight: 700;
+    padding: 1px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 1.8rem;
+    background-color:#32659A ;
+    color: #fff
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-consulta button{
+        margin:30px;
+        width: 180px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-consulta button {
+        margin:40px;
+        width: 210px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-consulta button {
+        margin:60px;
+        width: 220px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-consulta button {
+        margin:60px;
+        width: 220px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-consulta button {
+        margin-top:50px;
+        margin-left: 200px;
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-consulta button {
+        margin-top:50px;
+        margin-left: 290px;
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-consulta button {
+        margin-top:50px;
+        margin-left: 490px;
+        width: 200px;
+    }
+}
+#form-consulta button:hover {
+    background-color: #6f6f6e
+}
+.icon-footer-consulta{
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-footer-consulta {
+        margin-left: 70px;
+        width: 100px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-footer-consulta {
+        margin-left: 90px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-footer-consulta {
+        margin-left: 110px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-footer-consulta {
+        margin-left: 110px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-footer-consulta{
+        margin-top: 40px;
+        margin-left: 275px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-footer-consulta{
+        margin-top: 40px;
+        margin-left: 360px;
+        width: 100px;
+        height: 50px
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-footer-consulta{
+        margin-top: 40px;
+        margin-left: 540px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .icon-footer-consulta {
+        width: 50px;
+        height: 65px;
+    }
+}
+.legal-grid-consulta{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 3%;
+    height: auto;   
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-grid-consulta {
+        min-height: 70vh;
+       
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-grid-consulta {
+        min-height: 80vh;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-grid-consulta {
+        min-height: 70vh;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-grid-consulta {
+        min-height: 90vh;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-grid-consulta{
+        min-height: 80vh;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-grid-consulta{
+        min-height: 80vh;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-grid-consulta{
+        min-height: 80vh;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-grid-consulta{
+        
+    }
+}
+/* ////////////////////////////////////////////////////////////////7 */
+/* FIN PAGINA CONSULTA */
+/* ////////////////////////////////////////////////////////////////////*/
+/* INICIO PAGINA RESPUESTA */
+.legal-respuesta {
+    min-height: 95vh;
+    padding: 150px 0px 0px 0px;
+    background-image: url("https://i.ibb.co/Bw4t8CN/legal-backgraund-gruponovus.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-respuesta {
+        min-height: 70vh;
+        padding: 90px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-respuesta {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-respuesta {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-respuesta {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-respuesta {
+        min-height: 100vh;
+        padding: 120px 15px 10px 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-respuesta {
+        min-height: 100vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-respuesta {
+        min-height: 150vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-respuesta {
+        min-height: 180vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+.legal-respuesta-fondo {
+    margin: 5px 80px 0px 80px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    min-height: 190vh; 
+    background: linear-gradient(90deg, rgba(10, 61, 150, 0.8379726891) 100%, rgba(70, 94, 255, 0) 100%);  
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-respuesta-fondo {
+        min-height: 80vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-respuesta-fondo{
+        min-height: 90vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-respuesta-fondo {
+        min-height: 90vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-respuesta-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-respuesta-fondo{
+        min-height: 90vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-respuesta-fondo {
+        min-height: 105vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-respuesta-fondo {
+        min-height: 110vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-respuesta-fondo {
+        min-height: 180vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+.legals__titulo-respuesta {
+    margin: 20px 0px;   
+}
+.legals__titulo-respuesta p {
+    text-align:center;
+    color: #fff;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legals__titulo-respuesta p {
+        font-size: 25px;
+        font-size: 1.5rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legals__titulo-respuesta p {
+        font-size: 25px;
+        font-size: 1.9rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legals__titulo-respuesta p {
+        font-size: 25px;
+        font-size: 1.9rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legals__titulo-respuesta p {
+        font-size: 25px;
+        font-size: 1.9rem;
+        line-height: 1px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legals__titulo-respuesta p {
+        font-size: 25px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__titulo-respuesta p {
+        line-height: 38px;
+        font-size: 38px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legals__titulo-respuesta p {
+        line-height: 42px;
+        font-size: 42px;
+        font-size: 2.7rem
+    }
+}
+.icon-respuesta{
+    width: 50px;
+    height: 65px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-respuesta {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-respuesta {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-respuesta {
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-respuesta{
+        width: 35px;
+        height: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-respuesta{
+        width: 40px;
+        height: 55px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-respuesta{
+        width: 45px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-respuesta {
+         width: 50px;
+         height: 65px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .icon-respuesta {
+        width: 50px;
+        height: 65px;
+    }
+}
+#form-respuesta input[type=text],#form-solicitud input[type=number] {
+    outline: none;
+    border-radius: 7px;
+    border-color: #32659A;
+    border-width: 1px;
+    text-align: center;
+    font-size: 10px;
+    font-size: 1.9rem;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-respuesta input {
+        width: 230px;
+        margin-bottom: 10px; 
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-respuesta input {
+        width: 285px;
+        margin-bottom: 10px; 
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-respuesta input {
+        width: 330px;
+        margin-bottom: 10px;  
+    }
+}    
+@media only screen and (min-width: 768px) {
+    #form-respuesta input {
+        width: 450px;
+        margin-bottom: 10px;  
+        margin-left: 100px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-respuesta input {
+        width: 500px;
+        margin-left: 170px; 
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-respuesta input {
+        width: 650px;
+        margin-left: 270px;
+        margin-top:20px;
+    }
+}
+#form-respuesta label {
+    line-height: 18px;
+    text-align: center;
+    font-size: 13px;
+    font-size: 2.1rem;
+    align-items: center;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-respuesta label {
+        width: 250px;
+        font-size: 1.3rem;
+        margin: 10px 0px 5px 1px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-respuesta label {
+        width: 250px;
+        font-size: 1.6rem;
+        margin: 10px 0px 5px 20px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-respuesta label {
+        width: 250px;
+        font-size: 1.6rem;
+        margin: 10px 0px 5px 40px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-respuesta label {
+        width: 350px;
+        font-size: 1.7rem;
+        margin: 50px 0px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-respuesta label {
+        width: 500px;
+        font-size: 1.7rem;
+        margin-left: 80px;
+        margin-top: 40px;
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-respuesta label {
+        width: 500px;
+        font-size: 1.7rem;
+        margin-left: 180px;
+        margin-top: 40px; 
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-respuesta label {
+        width: 500px;
+        font-size: 1.7rem;
+        margin-left: 340px;
+        margin-top: 40px; 
+    }
+}
+#form-respuesta button {
+    align-items: center;
+    font-weight: 700;
+    padding: 1px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 1.8rem;
+    background-color:#32659A ;
+    color: #fff
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-respuesta button{
+        margin:10px 0px 10px 35px;
+        font-size: 1.3rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-respuesta button {
+        margin:10px 0px 10px 40px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-respuesta button {
+        margin:10px 0px 10px 65px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-respuesta button {
+        margin:10px 0px 10px 65px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-respuesta button {
+        margin:10px 0px 10px 220px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-respuesta button {
+        margin:10px 0px 10px 320px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-respuesta button {
+        margin:10px 0px 10px 480px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+.consulta-div {
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .consulta-div{
+        margin-left: 40px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .consulta-div {
+        margin-left: 50px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .consulta-div {
+        margin-left: 53px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .consulta-div {
+        margin-left: 53px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .consulta-div {
+        margin-left: 53px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .consulta-div {
+        margin-left: 53px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .consulta-div {
+        margin-left: 53px;
+    }
+}
+#form-respuesta button:hover {
+    background-color: #6f6f6e
+}
+.icon-footer-respuesta{
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .icon-footer-respuesta {
+        margin: 10px 0px 0px 90px;
+        width: 50px;
+        height: 30px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .icon-footer-respuesta {
+        margin: 10px 0px 0px 110px;
+        width: 70px;
+        height: 40px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .icon-footer-respuesta {
+        margin: 10px 0px 0px 130px;
+        width: 80px;
+        height: 40px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .icon-footer-respuesta {
+        margin-left: 110px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 768px) {
+    .icon-footer-respuesta{
+        margin-top: 40px;
+        margin-left: 275px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 992px) {
+    .icon-footer-respuesta{
+        margin-top: 40px;
+        margin-left: 370px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .icon-footer-respuesta{
+        margin-top: 40px;
+        margin-left: 550px;
+        width: 100px;
+        height: 60px
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .icon-footer-respuesta {
+        margin-top: 40px;
+        margin-left: 370px;
+        width: 100px;
+        height: 60px
+    }
+}
+.legals__titulo-respuesta {
+    margin: 20px 0px;   
+}
+.legal-grid-consulta p {
+    text-align:center;
+    color: rgb(0, 0, 0);
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-grid-consulta p {
+        height:80px;
+        font-size: 25px;
+        font-size: 1.1rem;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-grid-consulta p {
+        height:70px;
+        font-size: 25px;
+        font-size: 1.1rem;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-grid-consulta p{
+        height:70px;
+        font-size: 25px;
+        font-size: 1.1rem;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-grid-consulta p {
+        height:70px;
+        font-size: 25px;
+        font-size: 1.1rem;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-grid-consulta p {
+        margin-left: 120px;
+        width:400px;
+        height:70px;
+        font-size: 25px;
+        font-size: 1.1rem;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-grid-consulta p {
+        margin-left: 170px;
+        width:500px;
+        height:70px;
+        font-size: 25px;
+        font-size: 1.4rem;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-grid-consulta p {
+        margin-left: 340px;
+        width:500px;
+        height:70px;
+        font-size: 25px;
+        font-size: 1.4rem;
+        line-height: 13px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-grid-consulta p {
+        margin-left: 300px;
+        width:500px;
+        height:70px;
+        font-size: 25px;
+        font-size: 1.4rem;
+        line-height: 13px;
+    }
+}
+.legal-grid-respuesta{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 3%;
+    height: auto;   
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-grid-respuesta{
+        min-height: 70vh;
+       
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-grid-respuesta{
+        min-height: 80vh;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-grid-respuesta {
+        min-height: 70vh;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-grid-respuesta {
+        min-height: 90vh;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-grid-respuesta{
+        min-height: 80vh;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-grid-respuesta{
+        
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-grid-respuesta{
+         
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-grid-respuesta{
+        
+    }
+}
+.indice {
+    display: none
+}
+.legal-cliente{
+    min-height: 95vh;
+    padding: 150px 0px 0px 0px;
+    background-image: url("https://i.ibb.co/Bw4t8CN/legal-backgraund-gruponovus.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-cliente {
+        min-height: 70vh;
+        padding: 90px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-cliente {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-cliente {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-cliente {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-cliente {
+        min-height: 100vh;
+        padding: 120px 15px 10px 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-cliente {
+        min-height: 120vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-cliente {
+        min-height: 90vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-cliente {
+        min-height: 180vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+.legal-cliente-fondo {
+    margin: 5px 80px 0px 80px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    min-height: 190vh; 
+    background: linear-gradient(90deg, rgba(10, 61, 150, 0.8379726891) 100%, rgba(70, 94, 255, 0) 100%);  
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-cliente-fondo {
+        min-height: 70vh;
+        margin: 18px 10px 1px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-cliente-fondo {
+        min-height: 75vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-cliente-fondo {
+        min-height: 80vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-cliente-fondo {
+        min-height: 95vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-cliente-fondo {
+        min-height: 75vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-cliente-fondo {
+        min-height:80vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-cliente-fondo {
+        min-height: 75vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-cliente-fondo {
+        min-height: 100vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+.legals__titulo-cliente {
+    margin-top: 10px;
+    width: 100%    
+}
+
+.legals__titulo-cliente p {
+    text-align:center;
+    color: #fff;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+@media only screen and (min-width: 768px) {
+    .legals__titulo-cliente p {
+        font-size: 25px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legals__titulo-cliente p {
+        line-height: 38px;
+        font-size: 38px;
+        font-size: 2.5rem
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legals__titulo-cliente p {
+        line-height: 42px;
+        font-size: 42px;
+        font-size: 2.7rem
+    }
+}
+.legals__titulo-cliente b {
+    font-weight: bold;
+}
+#form-cliente input[type=file]{
+    width: 330px;
+    outline: none;
+    border-radius: 7px;
+    border-color: #32659A;
+    border-width: 1px;
+    text-align: center;
+    font-size: 10px;
+    font-size: 1.9rem
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-cliente input[type=file]{
+        width: 220px; 
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-cliente input[type=file]{
+        width: 270px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-cliente input[type=file] {
+        width: 310px;
+    }
+}@media only screen and (min-width: 768px) {
+    #form-cliente input[type=file]{
+        width: 400px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-cliente input[type=file] {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-cliente input[type=file] {
+        width: 350px;
+    }
+}
+#form-cliente label {
+    width: 170px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    font-size: 1px;
+    font-size: 1.4rem
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-cliente label {
+        margin-top: 15px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-cliente label {
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-cliente label {
+        margin-top: 20px;
+    }
+}
+#form-cliente label a {
+    font-weight: 500;
+    line-height: 14px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+}   
+#form-cliente .enviar{
+    width: 230px;
+    padding: 1px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 1.8rem;
+    background-color:#32659A ;
+    color: #fff;
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-cliente .enviar {
+        width: 190px;
+        font-size: 1.5rem;
+        margin: 15px 0px 20px 10px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-cliente .enviar {
+        width: 190px;
+        font-size: 1.9rem;
+        margin: 15px 0px 20px 30px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-cliente .enviar {
+        width: 210px;
+        font-size: 2.0rem;
+        margin: 15px 0px 20px 50px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-cliente .enviar {
+        width: 210px;
+        font-size: 2.0rem;
+        margin: 15px 0px 20px 80px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-cliente .enviar {
+        margin: 20px 0px 20px 100px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-cliente .enviar {
+        margin: 20px 0px 20px 280px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-cliente .enviar {
+        margin: 20px 0px 20px 450px;
+    }
+}
+.legal-grid-cliente2{
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 3%;
+    height: auto;   
+}
+.legal-grid-cliente{
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 3%;
+    height: auto;   
+}
+@media only screen and (min-width: 992px) {
+    .legal-grid-cliente {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows:auto auto auto
+    }
+}
+@media only screen and (min-width: 992px) {
+    .cliente-f:nth-child(1) {
+        padding: 10px 0px 0px 50px;
+        height:80px;
+        -ms-grid-column-span: 2;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2;
+        font-size: 10px;
+        font-size: 1.5rem;
+    }    
+}
+@media only screen and (min-width: 992px) {
+    .cliente-f:nth-child(2) {
+        padding: 10px 0px 0px 50px;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2;
+        font-size: 10px;
+        font-size: 1.5rem;
+    }        
+}
+@media only screen and (min-width: 992px) {
+    .cliente-f:nth-child(3) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 2/3;
+    }            
+}
+@media only screen and (min-width: 992px) {
+    .cliente-f:nth-child(4) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;        
+        padding: 30px 5px 0px 20px;
+    } 
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.salto {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align:left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 18px;
+    font-size: 1.5rem;
+}
+  @media only screen and (min-width: 200px)and (max-width: 368px) {
+    .salto {
+        text-align:center;
+        font-size: 10px;
+        font-size: 1.1rem;
+    }    
+        
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .salto {
+        text-align:center;
+        font-size: 10px;
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .salto {
+        text-align:center;
+        font-size: 10px;
+        font-size: 1.3rem;
+    }    
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .salto{
+        font-size: 10px;
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .salto {
+        font-size: 10px;
+        font-size: 1.4em;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .salto {
+        font-size: 10px;
+        font-size: 1.4rem;
+    }    
+}
+@media only screen and (min-width: 1280px) {
+    .salto {
+        font-size: 10px;
+        font-size: 1.4rem;
+    }
+}
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .salto:hover {
+    background-color: #ccc;
+}
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding-top: 20px;  
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+  @media only screen and (min-width: 200px)and (max-width: 368px) {
+    .panel {
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .panel {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .panel {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .panel{
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    .panel {
+       
+    }
+}
+@media only screen and (min-width: 992px) {
+    .panel {
+       
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .panel {
+      
+    }
+}
+#file {
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.5rem;
+    background-color:#32659A ;
+    color: #fff
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #file{
+        width: auto;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #file {
+        margin:10px 0px 10px 10px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #file {
+        margin:10px 0px 10px 10px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #file {
+        margin:10px 0px 10px 10px;
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #file {
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #file {
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #file {
+
+        font-size: 1.7rem;
+        width: auto;
+    }
+}
+.legal-epayco {
+    min-height: 25vh;
+    padding: 150px 0px 0px 0px;
+    background-image: url("https://i.ibb.co/Bw4t8CN/legal-backgraund-gruponovus.jpg");
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-epayco {
+        min-height: 70vh;
+        padding: 90px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-epayco {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-epayco {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-epayco {
+        min-height: 100vh;
+        padding: 110px 5px 10px 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-epayco {
+        min-height: 100vh;
+        padding: 120px 15px 10px 15px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-epayco {
+        min-height: 80vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-epayco {
+        min-height: 120vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-epayco    {
+        min-height: 120vh;
+        padding: 150px 30px 10px 30px;
+    }
+}
+.legal-epayco-fondo {
+    margin: 5px 80px 0px 80px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    min-height: 30vh; 
+    background: linear-gradient(90deg, rgba(10, 61, 150, 0.8379726891) 100%, rgba(70, 94, 255, 0) 100%);  
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    .legal-epayco-fondo {
+        min-height: 75vh;
+        margin: 0px 10px 1px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    .legal-epayco-fondo {
+        min-height: 75vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    .legal-epayco-fondo {
+        min-height: 75vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    .legal-epayco-fondo {
+        min-height: 80vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .legal-epayco-fondo {
+        min-height: 80vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .legal-epayco-fondo {
+        min-height: 80vh;
+        margin: 5px 10px 0px 5px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    .legal-epayco-fondo {
+        min-height: 70vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (min-width: 1480px) {
+    .legal-epayco-fondo {
+        min-height: 100vh;
+        margin: 5px 10px 0px 10px;
+        padding-top: 5px;
+    }
+}
+#form-epayco label {    
+    font-weight: 500;
+    line-height: 10px;
+    font-size: 1px;
+    font-size: 1.4rem
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-epayco label {
+        
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-epayco label {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-epayco label {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-epayco label {
+        
+    }
+}
+@media only screen and (min-width: 768px){
+    #form-epayco label {
+        
+    }
+}
+@media only screen and (min-width: 992px){
+    #form-epayco label {
+       
+    }
+}
+@media only screen and (min-width: 1280px){
+    #form-epayco label {
+               
+    }
+}
+#form-epayco label a {
+    font-weight: 500;
+    line-height: 14px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+}   
+#form-epayco select{
+    padding: 30px 0px 0px 0px;
+    height: 30px;
+    outline: none;
+    border-radius: 7px;
+    border-color: #32659A;
+    border-width: 1px;
+    text-align: center;
+    font-size: 1.5rem
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-epayco select {
+        width: 180px;
+        font-size: 1.2rem
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-epayco select {
+        width: 220px;
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-epayco select {
+        width: 270px;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-epayco select {
+        width: 290px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-epayco select {
+        width: 300px;
+        margin-left:85px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-epayco select {
+        width: 300px;
+        margin-left:190px;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-epayco select {
+        width: 300px;
+        margin-left:100px;
+        font-size: 1.8rem;
+    }
+}
+#form-epayco button {
+    font-weight: 700;
+    padding: 1px 10px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-size: 1.8rem;
+    background-color:#32659A;
+    color: #fff
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-epayco button {
+       
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-epayco button {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-epayco button {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-epayco button {
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-epayco button{
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-epayco button {
+        
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-epayco button{
+        
+    }
+}
+.legal-grid-epayco{
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px 3%;
+    height: auto;   
+}
+@media only screen and (min-width: 992px) {
+    .legal-grid-epayco {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        -ms-grid-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto auto 1fr 1fr
+    }
+}
+@media only screen and (min-width: 992px) {
+    .epayco-f:nth-child(1) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 3;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 1/2;      
+    }    
+}
+@media only screen and (min-width: 992px) {
+    .epayco-f:nth-child(2) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/2;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 2/3; 
+    }        
+}
+@media only screen and (min-width: 992px) {
+    .epayco-f:nth-child(3) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 2/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 2/3;
+    }            
+}
+@media only screen and (min-width: 992px) {
+    .epayco-f:nth-child(4) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 3/4;
+    }            
+}
+@media only screen and (min-width: 992px) {
+    .epayco-f:nth-child(5) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 4/5;
+    }            
+}
+@media only screen and (min-width: 992px) {
+    .epayco-f:nth-child(6) {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1/3;
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        grid-row: 5/6;
+    }            
+}
+#form-epayco .titulo {
+    padding-bottom: 28px;
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-epayco .titulo {
+        
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-epayco .titulo {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-epayco .titulo {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-epayco .titulo {
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-epayco .titulo{
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-epayco .titulo {
+        font-size: 2.4rem;
+        margin-left: 370px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-epayco .titulo{
+        
+    }
+}
+#form-epayco .pse {
+    font-size: 1.5rem;
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-epayco .pse {
+        
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-epayco .pse {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-epayco .pse {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-epayco .pse {
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-epayco .pse{
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-epayco .pse {
+        font-size: 1.5rem;
+        padding: 0px 10px 0px 420px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-epayco .pse{
+        
+    }
+}
+#form-epayco .tarjeta {
+    font-size: 1.5rem;
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-epayco .tarjeta  {
+        
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-epayco .tarjeta {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-epayco .tarjeta  {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-epayco .tarjeta  {
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-epayco .tarjeta {
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-epayco .tarjeta  {
+        font-size: 1.5rem;
+        padding: 0px 10px 0px 0px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-epayco .tarjeta {
+        
+    }
+}
+#form-epayco .banco {
+    font-size: 1.5rem;
+    
+}
+@media only screen and (min-width: 200px)and (max-width: 368px) {
+    #form-epayco .banco  {
+        
+    }
+}
+@media only screen and (min-width: 369px)and (max-width: 408px) {
+    #form-epayco .banco {
+        
+    }
+}
+@media only screen and (min-width: 410px)and (max-width: 568px) {
+    #form-epayco .banco {
+        
+    }
+}
+@media only screen and (min-width: 569px)and (max-width: 767px) {
+    #form-epayco .banco  {
+        
+    }
+}
+@media only screen and (min-width: 768px) {
+    #form-epayco .banco {
+        
+    }
+}
+@media only screen and (min-width: 992px) {
+    #form-epayco .banco {
+        font-size: 1.5rem;
+        padding: 0px 10px 0px 0px;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #form-epayco .banco{
+        
+    }
+}
